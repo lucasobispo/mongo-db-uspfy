@@ -1,0 +1,63 @@
+# Insira os documentos na coleção "playlist"
+db.playlist.insertMany([
+  {
+    'idPlaylist': 1,
+    'nomePlaylist': 'Vibes Inesquecíveis',
+    'idMusica': 3,
+    'idUsuario': 1
+  },
+  {
+    'idPlaylist': 2,
+    'nomePlaylist': 'Energy Boost',
+    'idMusica': 5,
+    'idUsuario': 4
+  },
+  {
+    'idPlaylist': 3,
+    'nomePlaylist': 'Chill Mode',
+    'idMusica': 3,
+    'idUsuario': 1
+  },
+  {
+    'idPlaylist': 4,
+    'nomePlaylist': 'Indie Discoveries',
+    'idMusica': 4,
+    'idUsuario': 2
+  },
+  {
+    'idPlaylist': 5,
+    'nomePlaylist': 'Feel Good Jams',
+    'idMusica': 3,
+    'idUsuario': 10
+  },
+  {
+    'idPlaylist': 6,
+    'nomePlaylist': 'Late Night Grooves',
+    'idMusica': 10,
+    'idUsuario': 7
+  },
+  {
+    'idPlaylist': 7,
+    'nomePlaylist': 'Rhythm Revolution',
+    'idMusica': 2,
+    'idUsuario': 7
+  },
+  {
+    'idPlaylist': 8,
+    'nomePlaylist': 'Soulful Serenade',
+    'idMusica': 8,
+    'idUsuario': 9
+  },
+  {
+    'idPlaylist': 9,
+    'nomePlaylist': 'Epic Soundscapes',
+    'idMusica': 9,
+    'idUsuario': 10
+  },
+  {
+    'idPlaylist': 10,
+    'nomePlaylist': 'Dance Party Anthems',
+    'idMusica': 10,
+    'idUsuario': 1
+  }
+])

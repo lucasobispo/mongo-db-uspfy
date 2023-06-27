@@ -1,0 +1,51 @@
+db.musica.insertMany([
+    {
+        idMusica: 1,
+        nomeMusica: 'Blinding Lights',
+        genero: 'R&B, Pop',
+        urlmusica: 's3://uspfy/musica/Blinding_Lights.mp3',
+        Artista: {
+            idArtista: 1,
+            nomeArtista: 'The Weeknd'
+        },
+        Album: {
+            idAlbum: 1,
+            nomeAlbum: 'After Hours',
+            ano: 2020,
+            urlImagem: 's3://uspfy/imagem/imagem1.jpg'
+        }
+    },
+    {
+        idMusica: 2,
+        nomeMusica: 'drivers license',
+        genero: 'Pop',
+        urlmusica: 's3://uspfy/musica/drivers_license.mp3',
+        Artista: {
+            idArtista: 2,
+            nomeArtista: 'Olivia Rodrigo'
+        },
+        Album: {
+            idAlbum: 2,
+            nomeAlbum: 'SOUR',
+            ano: 2021,
+            urlImagem: 's3://uspfy/imagem/imagem2.jpg'
+        }
+    },
+    {
+        idMusica: 3,
+        nomeMusica: 'Bad Guy',
+        genero: 'Pop',
+        urlmusica: 's3://uspfy/musica/Bad_Guy.mp3',
+        Artista: {
+            idArtista: 3,
+            nomeArtista: 'Billie Eilish'
+        },
+        Album: {
+            idAlbum: 3,
+            nomeAlbum: 'WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?',
+            ano: 2019,
+            urlImagem: 's3://uspfy/imagem/imagem3.jpg'
+        }
+    },
+
+])

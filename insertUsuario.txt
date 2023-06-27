@@ -1,0 +1,71 @@
+db.usuario.insertMany([
+  {
+    'idUsuario': 1,
+    'email': 'pedro@gmail.com',
+    'senha': 'senha123',
+    'nome': 'pedro',
+    'urlfoto': 's3://uspfy/photo/foto1.jpg'
+  },
+  {
+    'idUsuario': 2,
+    'email': 'maria@gmail.com',
+    'senha': 'senha456',
+    'nome': 'maria',
+    'urlfoto': 's3://uspfy/photo/foto2.jpg'
+  },
+  {
+    'idUsuario': 3,
+    'email': 'pedro@gmail.com',
+    'senha': 'senha789',
+    'nome': 'pedro',
+    'urlfoto': 's3://uspfy/photo/foto3.jpg'
+  },
+  {
+    'idUsuario': 4,
+    'email': 'ana@gmail.com',
+    'senha': 'senha321',
+    'nome': 'ana',
+    'urlfoto': 's3://uspfy/photo/foto4.jpg'
+  },
+  {
+    'idUsuario': 5,
+    'email': 'carlos@gmail.com',
+    'senha': 'senha654',
+    'nome': 'carlos',
+    'urlfoto':'s3://uspfy/photo/foto5.jpg'
+  },
+  {
+    'idUsuario': 6,
+    'email': 'laura@gmail.com',
+    'senha': 'senha987',
+    'nome': 'laura',
+    'urlfoto':'s3://uspfy/photo/foto6.jpg'
+  },
+  {
+    'idUsuario': 7,
+    'email': 'rodrigo@gmail.com',
+    'senha': 'senhaabc',
+    'nome': 'rodrigo',
+    'urlfoto': 's3://uspfy/photo/foto7.jpg'
+  },
+  {
+    'idUsuario': 8,
+    'email': 'clara@gmail.com',
+    'senha': 'senhaxyz',
+    'URLfoto': 's3://uspfy/photo/foto8.jpg'
+  },
+  {
+    'idUsuario': 9,
+    'email': 'paulo@gmail.com',
+    'senha': 'senhajkl',
+    'nome': 'paulo',
+    'urlfoto': 's3://uspfy/photo/foto9.jpg'
+  },
+  {
+    'idUsuario': 10,
+    'email': 'amanda@gmail.com',
+    'senha': 'senhamno',
+    'nome': 'amanda',
+    'urlfoto': 's3://uspfy/photo/foto10.jpg'
+  }
+])
